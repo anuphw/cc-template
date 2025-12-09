@@ -1,0 +1,11 @@
+[
+  {
+    "id": "example-task-1",
+    "content": "Example task - analyze project requirements",
+    "activeForm": "Analyzing project requirements",
+    "status": "completed",
+    "dependencies": [],
+    "tags": ["analysis", "planning"],
+    "created_at": "2024-12-09T12:00:00Z"
+  }
+]
