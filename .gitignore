@@ -1,7 +1,51 @@
 # Claude Code local configuration
 CLAUDE.local.md
 
-# Python
+# =============================================================================
+# SECRETS - NEVER COMMIT THESE
+# =============================================================================
+# Environment files with secrets
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# Firebase credentials
+firebase-*.json
+*-firebase-adminsdk-*.json
+service-account*.json
+serviceAccountKey.json
+google-services.json
+
+# API keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+*.secret
+
+# =============================================================================
+# DATA & LOGS
+# =============================================================================
+# Local data storage
+data/
+*.sqlite
+*.db
+
+# Logs
+logs/*.log
+*.log
+
+# Export files
+export_*.json
+export_*.csv
+
+# =============================================================================
+# PYTHON
+# =============================================================================
 __pycache__/
 *.py[cod]
 *$py.class
@@ -25,10 +69,9 @@ wheels/
 MANIFEST
 
 # Virtual environments
-.env
-.venv
-env/
+.venv/
 venv/
+env/
 ENV/
 env.bak/
 venv.bak/
